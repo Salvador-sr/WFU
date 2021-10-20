@@ -89,6 +89,32 @@ footer,
   text-decoration: none;
 }
 
+.menu-footer li {
+  color: white;
+}
+
 .menu-footer a:hover {
   color: #1fd612;
+}
+
+.banner-page {
+  margin: 100px 0 70px 0;
+  color: white;
+  padding: 10px;
+}
+
+.banner-page h1 {
+  font-size: 5em;
+}
+
+#banner-about {
+  background-color: black;
+}
+
+.separator {
+  content: "";
+  width: 80%;
+  margin: 50px 10%;
+  height: 2px;
+  background-color: #ced4da;
 }
