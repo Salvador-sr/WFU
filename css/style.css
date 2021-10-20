@@ -1,0 +1,51 @@
+body {
+  background-color: #f8f9fa;
+}
+
+#logo {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+#logo:hover {
+  color: #1fd612;
+  font-weight: bold;
+}
+
+#banner-home {
+  background-color: #393e46;
+}
+
+#link-banner {
+  text-decoration: none;
+  background-color: #343a40;
+  color: white;
+  width: 50%;
+}
+#link-banner:hover {
+  background-color: white;
+  color: #343a40;
+  border: 2px solid #343a40;
+  width: 60%;
+}
+
+.section-page {
+  padding-top: 50px;
+}
+
+.section-about .card-body {
+  text-align: justify;
+  padding: 10%;
+}
+
+.section-about a {
+  background-color: #343a40;
+  text-decoration: none;
+  color: white;
+  width: 50%;
+  margin: auto;
+}
+.icon-section-about {
+  font-size: 3vw;
+}
