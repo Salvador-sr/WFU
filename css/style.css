@@ -101,14 +101,11 @@ footer,
   margin: 100px 0 70px 0;
   color: white;
   padding: 10px;
+  background-color: black;
 }
 
 .banner-page h1 {
   font-size: 5em;
-}
-
-#banner-about {
-  background-color: black;
 }
 
 .separator {
@@ -117,4 +114,17 @@ footer,
   margin: 50px 10%;
   height: 2px;
   background-color: #ced4da;
+}
+
+#section-contact input,
+#section-contact textarea,
+#section-contact button {
+  width: 75%;
+}
+
+#section-contact button {
+  margin-top: 20px;
+}
+#section-contact label {
+  font-weight: bold;
 }
