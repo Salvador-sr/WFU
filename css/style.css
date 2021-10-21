@@ -105,7 +105,7 @@ footer,
 }
 
 .banner-page h1 {
-  font-size: 5em;
+  font-size: 4em;
 }
 
 .separator {
@@ -119,7 +119,7 @@ footer,
 #section-contact input,
 #section-contact textarea,
 #section-contact button {
-  width: 75%;
+  width: 100%;
 }
 
 #section-contact button {
@@ -127,4 +127,17 @@ footer,
 }
 #section-contact label {
   font-weight: bold;
+}
+
+#copyright {
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+  padding-bottom: 1em;
+}
+
+#copyright a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
 }
