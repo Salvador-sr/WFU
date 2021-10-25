@@ -1,32 +1,40 @@
+:root {
+  --green: #1fd612;
+  --graybg: #f8f9fa;
+  --graydark: #393e46;
+  --graybtn: #343a40;
+}
 body {
-  background-color: #f8f9fa;
+  background-color: var(--graybg);
+  font-size: 16px;
 }
 
 #logo {
   text-decoration: none;
   color: white;
-  font-size: 30px;
+  font-size: 3rem;
 }
 
 #logo:hover {
-  color: #1fd612;
+  color: var(--green);
   font-weight: bold;
 }
 
 #banner-home {
-  background-color: #393e46;
+  background-color: var(--graydark);
 }
 
 #link-banner {
   text-decoration: none;
-  background-color: #343a40;
+  background-color: var(--graybtn);
   color: white;
   width: 50%;
+  transition: width, 1s;
 }
 #link-banner:hover {
   background-color: white;
-  color: #343a40;
-  border: 2px solid #343a40;
+  color: var(--graybtn);
+  border: 2px solid currentColor;
   width: 60%;
 }
 
@@ -36,11 +44,11 @@ body {
 }
 
 .section-page h1 {
-  font-size: 3em;
+  font-size: 3rem;
   padding-bottom: 30px;
 }
 .section-page h2 {
-  font-size: 2em;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -55,23 +63,23 @@ body {
 }
 
 #section-about a {
-  background-color: #343a40;
+  background-color: var(--graybtn);
   text-decoration: none;
   color: white;
   padding: 5px;
   border-radius: 3px;
 }
 #section-about a:hover {
-  color: #343a40;
+  color: var(--graybtn);
   background-color: white;
-  border: 2px solid #343a40;
+  border: 2px solid currentColor;
 }
 .icon-section-about {
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 #section-carousel {
-  background-color: #393e46;
+  background-color: var(--graydark);
 }
 
 #section-contact input,
@@ -94,7 +102,7 @@ footer,
 }
 
 .menu-footer a:hover {
-  color: #1fd612;
+  color: var(--green);
 }
 
 .banner-page {
@@ -140,4 +148,30 @@ footer,
   font-weight: bold;
   text-decoration: none;
   color: white;
+}
+
+/*The most typicall screens*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /*...;*/
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /*...;*/
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /*...;*/
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /*...;*/
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /*...;*/
 }
